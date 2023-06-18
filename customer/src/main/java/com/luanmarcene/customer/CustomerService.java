@@ -1,5 +1,8 @@
 package com.luanmarcene.customer;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public record CustomerService() {
 
     public void registerCustomer(CustomerRegistrationRequest customerRegistrationRequest) {
@@ -8,7 +11,10 @@ public record CustomerService() {
                                     .lastName(customerRegistrationRequest.lastName())
                                     .email(customerRegistrationRequest.email())
                                     .build();
-        //todo
+        /*todo -> check if email is valid; 
+         *     -> check if email is not taken
+         *     -> store customer in db
+         */
     }
 
 }
