@@ -1,1 +1,7 @@
+com\luanmarcene\customer\Customer$CustomerBuilder.class
 com\luanmarcene\customer\CustomerApplication.class
+com\luanmarcene\customer\CustomerController.class
+com\luanmarcene\customer\CustomerRegistrationRequest.class
+com\luanmarcene\customer\Customer.class
+com\luanmarcene\customer\CustomerRepository.class
+com\luanmarcene\customer\CustomerService.class
